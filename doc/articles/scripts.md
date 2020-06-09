@@ -350,7 +350,7 @@ the PHP executable available in it as a `PHP_BINARY` env var.
 
 ## Setting environment variables
 
-To set an environment variable in a cross-platform way, you can use `@putenv`:
+To set an environment variable in a cross-platform way, you can use `@setenv`:
 
 ```json
 {
